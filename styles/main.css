@@ -1,0 +1,179 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #1d1d1b;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1d1d1b;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Main content area */
+main {
+    padding: 2em
+}
+
+/* Section styles */
+section {
+    margin-bottom: 2em;
+}
+
+/* Form styles*/
+form {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+form input, form button {
+    padding: 0.5em;
+    border: 1px solid #767676;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #d52b1e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b1251a;
+}
+
+/* Inventory list styles */
+
+#inventory_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#inventory_list li {
+    padding: 0.5em;
+    border-bottom: 1px solid #767676;
+}
+
+/* Storage unit styles */
+
+#storage_units {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.storage_unit {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1d1d1b;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.storage-unit.drag-over {
+    border-color: #d52b1e;
+}
+
+/* Storage unit styles */
+#storage_units {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.storage_unit {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1d1d1b;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+    .storage_unit.drag-over {
+        border-color: #d52b1e;
+    }
+/* Storage unit styles */
+#storage_units {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.storage_unit {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1d1d1b;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+    .storage_unit.drag-over {
+        border-color: #d52b1e;
+    }
+
+.special_unit {
+    background-color: #d52b1e;
+    color: white;
+    border-color: #d52b1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    margin-top: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#delete {
+    margin-top: 1em;
+}
+
+/* Ensure text fits within the storage unit */
+.storage_unit .unit-content {
+    font-size: 12px;
+    word-wrap: break-word;
+}
+
+.unit-header {
+    font-weight: bold;
+}
+
+/* Archives section */
+#archives_section {
+    margin-top: 2em;
+}
+
+#archives_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    #archives_list li {
+        padding: 0.5em;
+        border-bottom: 1px solid #767676;
+    }

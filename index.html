@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargo Inventory System</title>
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+    <nav>
+        <h1>Cargo Inventory System</h1>
+    </nav>
+    <main>
+        <section id="inventory_section">
+            <h2>Inventory Management</h2>
+            <form id="inventory_form">
+                <input type="text" id="item_name" placeholder="Item Name" required />
+                <input type="number" id="item_quantity" placeholder="Quantity" required min="1" />
+                <input type="datetime-local" id="departure_time" placeholder="Departure Time" required />
+                <input type="text" id="connecting_flight" placeholder="Connecting Flight (optional)" />
+                <button type="submit">Add Item</button>
+            </form>
+            <ul id="inventory_list"></ul>
+        </section>
+        <section id="storage_section">
+            <h2>Storage Management</h2>
+            <div id="storage_units"></div>
+            <div id="airport" class="special_unit">Airport</div>
+            <div id="delete" class="special_unit">Delete</div>
+        </section>
+        <section id="archives_section">
+            <h2>Archives</h2>
+            <ul id="archives_list"></ul>
+        </section>
+    </main>
+    <script src="scripts/inventory.js"></script>
+    <script src="scripts/storage.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
