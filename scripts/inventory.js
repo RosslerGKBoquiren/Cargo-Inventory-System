@@ -57,6 +57,7 @@ function displayInventory() {
         inventoryList.appendChild(listItem);
     });
 }
+// getElementById redundant. Boxes currently dont have IDs 
 
 // Add event listener for the inventory form submission
 document.getElementById('inventory_form').addEventListener('submit', function (event) {
