@@ -4,6 +4,7 @@ function initializeApp() {
     localStorage.removeItem('inventory');
 
     // Initialize storage units
+    // update
     initializeStorageUnits();
 
     // Display existing inventory (which will now be empty)
