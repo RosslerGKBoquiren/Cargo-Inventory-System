@@ -8,6 +8,7 @@ function addItem(itemName, itemQuantity, departureTime, connectingFlight) {
     }
 // update
     
+    
     // Validate quantity (positive number)
     if (itemQuantity <= 0) {
         alert("Quantity must be a positive number.");
