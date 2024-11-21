@@ -8,6 +8,7 @@ function addItem(itemName, itemQuantity, departureTime, connectingFlight) {
     }
 //
     
+    
 
     // Validate quantity (positive number)
     if (itemQuantity <= 0) {
