@@ -6,9 +6,6 @@ function addItem(itemName, itemQuantity, departureTime, connectingFlight) {
         alert("Item name must be 3 capital letters.");
         return;
     }
-//
-    
-    
 
     // Validate quantity (positive number)
     if (itemQuantity <= 0) {
