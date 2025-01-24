@@ -3,7 +3,7 @@ function initializeStorageUnits() {
     // Get the storage units container element
     const storageUnitsContainer = document.getElementById('storage_units');
 //
-    
+
     // Create 30 storage units
     for (let i = 1; i <= 30; i++) {
         const storageUnit = document.createElement('div');
