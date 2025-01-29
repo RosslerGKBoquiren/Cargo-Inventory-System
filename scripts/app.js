@@ -3,7 +3,7 @@ function initializeApp() {
     // Clear the inventory in local storage
     localStorage.removeItem('inventory');
 
-    
+
     // Initialize storage units
     // update
     initializeStorageUnits();
